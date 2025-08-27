@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "start": "cross-env PORT=3322 NODE_ENV=production node ./main.js"
+    "start:main": "cross-env PORT=3322 NODE_ENV=production node ./src/main.js",
+    "start:path": "node ./src/path.js"
   },
   "keywords": [],
   "author": "",
