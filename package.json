@@ -4,7 +4,9 @@
   "main": "index.js",
   "scripts": {
     "start:main": "cross-env PORT=3322 NODE_ENV=production node ./src/main.js",
-    "start:path": "node ./src/path.js"
+    "start:path": "node ./src/path.js",
+    "start:folder": "node ./src/folders.js",
+    "start:env": "cross-env MESSAGE=something node ./src/folders.js"
   },
   "keywords": [],
   "author": "",
